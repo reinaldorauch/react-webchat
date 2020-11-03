@@ -1,7 +1,6 @@
 const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
-const { RSA_NO_PADDING } = require('constants');
 const app = express();
 
 const chats = {};
