@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const qs = new URLSearchParams(window.location.search);
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App id={qs.get('id')} member={qs.get('nome')}/>
   </React.StrictMode>,
   document.getElementById('root')
 );

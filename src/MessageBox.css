@@ -1,0 +1,16 @@
+.message-box {
+  grid-column: span 2;
+  background-color: coral;
+  display: grid;
+}
+
+.message-box form {
+  display: grid;
+  grid-template-columns: 90% 10%;
+}
+
+@media (max-width: 900px) {
+  .message-box form {
+    grid-template-columns: 80% 20%;
+  }
+}

@@ -1,0 +1,7 @@
+.chat-message {
+  margin-bottom: 10px;
+}
+
+.chat-message.sender-other {
+  text-align: right;
+}

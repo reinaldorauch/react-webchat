@@ -1,0 +1,9 @@
+.member-list {
+  background-color: aqua;
+}
+
+@media (max-width: 900px) {
+  .member-list {
+    display:none;
+  }
+}
